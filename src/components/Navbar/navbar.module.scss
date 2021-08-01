@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  // display: flex;
+  // justify-content: space-around;
+  #logo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .navitem {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+}

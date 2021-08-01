@@ -1,0 +1,64 @@
+.heroText {
+  margin-top: 40px;
+  background-image: url("../../../public/markimg.jpg");
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 3.375rem;
+  }
+  p {
+    max-width: 600px;
+    font-size: 1.33rem;
+    text-align: center;
+    font-family: "sanserif";
+  }
+  .heroImg {
+    // background-image: url("../../../public/codeimg.PNG");
+    // background-position: right;
+    .hero {
+      .heroBlog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .signUp {
+        margin: 30px;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input {
+          max-width: 280px;
+          height: 40px;
+          margin-top: 15px;
+          border: 2px solid slategrey;
+          padding: 8px 20px;
+          border-radius: 4px;
+        }
+        button {
+          max-width: 280px;
+          margin: 10px;
+          padding: 8px 76px;
+          border-radius: 5px;
+          background: #4dbdeb;
+          color: white;
+          font-weight: 600;
+          border: 0px;
+        }
+      }
+    }
+  }
+}
+.footer {
+  background-color: black;
+}
+.company {
+  // filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+  .vendor {
+    margin-right: 30px;
+  }
+}

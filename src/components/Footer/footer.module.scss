@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 50px;
+  padding: 40px 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+  }
+  button {
+    padding: 15px 45px;
+    color: white;
+    background: #cd0000;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
